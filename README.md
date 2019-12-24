@@ -52,7 +52,8 @@ Mood Hunter（心轨）|2019.12.25|曾拱韬
 
 ## 2.1 交互及界面设计 （部分功能展示）
  #### 1) 新建日记
-![首页](https://upload-images.jianshu.io/upload_images/9893857-494cea6760b9034b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![首页](https://upload-images.jianshu.io/upload_images/9893857-d3688c66cd07210d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 #### 2) 查看统计数据
 ![统计数据](https://upload-images.jianshu.io/upload_images/9893857-957edde3744dabf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### 3) 新增活动或提醒
