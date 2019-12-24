@@ -5,34 +5,39 @@
 
 
 # 情绪追踪APP
-产品名：心镜
-
-## PRD1.加值宣言
+- 智能产品名称：心镜
+# 一. 价值主张设计
+## 1.1 加值宣言
 #### 加值宣言
 **便捷性与认知智能**
 - 使用百度情感倾向分析API，识别日常记录的文字中的情感倾向，自动判断该文本的情感极性类别并给出相应的置信度，输出三种情感极性标签：积极、消极、中性，快速高效地记录情绪变化
 - 使用FACE++人脸识别API，对上传的自拍进行表情分析，自动判断该图片中表情的情感倾向与置信度，输出九种表情标签，提升情绪记录效率
 
-## PRD2.核心价值
+## 1.2 核心价值
 #### 核心价值宣言
 
 记录日常生活的情绪和与男女朋友的情感生活，记录生活留念美好瞬间，情绪复盘加深自我认识来控制情绪
 
 #### 目标用户
-恋爱中的情侣、日记控、精神疾病患者
-
-## PRD3.核心价值与用户痛点
+有意识通过调节情绪改善自己生活的人，如：在校大学生，职场人士、精神疾病患者、恋爱中的情侣、日记控、
+用户分类 | 用户范围
+-|-
+种子用户 | 在校大学生，职场人士 |
+核心用户 | 职场人士、精神疾病患者 |
+目标用户 | 有意识通过调节情绪改善自己生活的人。 | 
+潜在用户 | 在校学生 |
+## 1.3 核心价值与用户痛点
 
 #### 用户痛点宣言：
 - 1）经常有各种小情绪，无法很好地控制自己的情绪？通过本APP完成情绪记录后，可以查询到自己的情绪记录，以及关于自己情绪的各项数据分析。
 - 2）精神疾病患者可以轻松记录自己的情绪变化，形成月度情绪曲线，协助监测病情发展
-#### PRD4.人工智能概率性与用户痛点 
+#### 1.4 人工智能概率性与用户痛点 
 
 - 用户记录的文本和图像生成的情感标签上置信区间供用户参考，若标签不准确用户可随时手动进行更改
 - 对于情感倾向的识别出错时，对于普通用户来说并没有太大的影响，但对于要以此作为参考的精神疾病患者来说，不能直接以此作为就诊的参考数据，但对于患者进行自我情绪监控来说，识别上的错误并不会对治疗方案与用药造成影响，仅作为参考使用
 
 
-## PRD5.需求列表与人工智能API加值 
+## 1.5 需求列表与人工智能API加值 
 
 #### 需求列表
 用户案例 | 对应API |  重要程度
@@ -40,43 +45,41 @@
 一天结束想整理一下今天的照片，记录一下今天的感受，但很累了又不想操作太麻烦 | 情感倾向分析、人脸表情识别 | 重要 |
 记录一段时间之后想回顾前段时间的情绪变化，看到对自己情绪的分析 | 情感倾向分析、人脸表情识别 | 次重要|
 躁郁症患者想知道自己是处于相对躁期还是抑郁期，希望可以通过数据看到 | 情感倾向分析、人脸表情识别 | 次重要|
+-----------
+# 二. 原型.[原型文档下载](https://guyray.github.io/API_final_prototype/)
 
-# 原型
-## 原型1.交互及界面设计 
-### 部分功能展示
-#### 1. 新建日记
+## 2.1 交互及界面设计 （部分功能展示）
+ #### 1) 新建日记
 ![首页](https://upload-images.jianshu.io/upload_images/9893857-494cea6760b9034b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#### 2. 查看统计数据
+#### 2) 查看统计数据
 ![统计数据](https://upload-images.jianshu.io/upload_images/9893857-957edde3744dabf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#### 3. 新增活动或提醒
+#### 3) 新增活动或提醒
 ![日历](https://upload-images.jianshu.io/upload_images/9893857-79cffad54772a5a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#### 4. 编辑表情
+#### 4) 编辑表情
 ![设置](https://upload-images.jianshu.io/upload_images/9893857-82e27bf3c256f8db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 原型2.信息设计 
-#### 产品信息架构图
-![产品信息架构图](https://upload-images.jianshu.io/upload_images/9893857-380208b0ca250521.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#### 产品功能结构图
+## 2.2 信息设计 
+#### 1) 产品信息架构图
+![产品信息架构图](https://upload-images.jianshu.io/upload_images/9893857-dfaea2f28f58abf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+#### 2) 产品功能结构图
 ![产品功能结构图](https://upload-images.jianshu.io/upload_images/9893857-fa1e6297f1d66b35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#### 产品使用流程图
+#### 3) 产品使用流程图
 ![产品使用流程图](https://upload-images.jianshu.io/upload_images/9893857-a4ca077cba0792bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 原型3.[原型文档](https://guyray.github.io/API_final_prototype/)
 
-# API 产品使用关键AI或机器学习之API的输出入展示
-## API1.使用水平 
-
-#### 一 . FACE++人脸识别远程图片
-##### 1. [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E9%9B%86%E5%90%88%E6%B5%8B%E8%AF%95.png)
-##### 2. 返回数据
+## 三. API的使用与输出入展示
+## 3.1 API调用测试
+#### 1. FACE++人脸识别远程图片
+##### - [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E9%9B%86%E5%90%88%E6%B5%8B%E8%AF%95.png)
+##### - 返回数据
 ![人脸识别返回数据](https://upload-images.jianshu.io/upload_images/9893857-300df3fb970dbfe5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 字段 | 类型|  说明
 -|-|-
 emotion	 | Object | 情绪识别结果。返回值包含以下字段。anger：愤怒, disgust：厌恶, fear：恐惧, happiness：高兴,neutral：平静, sadness：伤心, surprise：惊讶 |
 
-#### 二. 百度情感倾向分析API 
-##### [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6%E6%83%85%E6%84%9F%E5%80%BE%E5%90%91%E5%88%86%E6%9E%90API%E6%B5%8B%E8%AF%95.html)
+#### 2. 百度情感倾向分析API 
+##### - [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6%E6%83%85%E6%84%9F%E5%80%BE%E5%90%91%E5%88%86%E6%9E%90API%E6%B5%8B%E8%AF%95.html)
 
 
 
@@ -91,17 +94,17 @@ emotion	 | Object | 情绪识别结果。返回值包含以下字段。anger：�
 # negative_prob    float    表示属于消极类别的概率，取值范围[0,1]
 ```
 
-#### 三. 科大讯飞语音转写API
-##### 1. [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E8%AF%AD%E9%9F%B3%E8%BD%AC%E5%86%99API%E6%B5%8B%E8%AF%95.png)
+#### 3. 科大讯飞语音转写API
+##### - [完整代码示例](https://github.com/guyray/API_ML_AI_final/blob/master/API%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/%E8%AF%AD%E9%9F%B3%E8%BD%AC%E5%86%99API%E6%B5%8B%E8%AF%95.png)
 
 
-##### 2. 返回数据
+##### - 返回数据
 ![科大讯飞语音转写返回数据 ](https://upload-images.jianshu.io/upload_images/9893857-301b0f24e2d4c8ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##### 3. 对比：百度语音识别返回的结果
+##### - 对比：百度语音识别返回的结果
 ![百度返回结果](https://upload-images.jianshu.io/upload_images/9893857-1a6ff916e13d6072.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## API2.使用比较分析 
+## 3.2 API使用比较分析 
 
 #### 人脸识别API对比
 量规 | API排序 |  文字记录
@@ -116,13 +119,13 @@ emotion	 | Object | 情绪识别结果。返回值包含以下字段。anger：�
 兼容性 |**科大讯飞**>**百度** | 许多音频百度的返回结果是为无法识别，而科大讯飞可以识别。|
 响应性| **Azure**>**Face++**>**百度** | Azure的响应时间最短，百度人脸识别的响应时间最长|
 识别准确性 |**FACE++**>**百度** | 科大讯飞对于中文的识别结果几乎没有错误，而百度的识别结果错误很多而且无法组成有意义的句子 |
-## API3.使用后风险报告
+## 3.3 API使用后风险报告
 #### 一. API类别的现在及未来发展性
-##### 1.  企业发展性
+##### 1)  企业发展性
 - 当前使用的API基于旷视的**Face++人脸识别**、百度自然语言处理的**情感倾向识别**、科大讯飞的**语音转写**。
 - 旷视和百度都是中国人工智能领域的开拓者。其中旷视是基于深度学习算法的计算机视觉算法的引领者，百度AI专利申请量5712位列中国第一，在深度学习领域专利申请量位居全球第二。
 - 科大讯飞是国内最大的语音技术提供商，其联手中科院推出了轰动世界的“讯飞输入法”，能直接将用户语音转化为文字，并且识别率高达97%以上。目前，微信与各语音记录APP的实时语音转写都由科大讯飞提供技术支持
-##### 2. API前景：
+##### 2) API前景：
 - 目前，人工智能技术在图像处理领域发展得最好，其中人脸识别是最最成熟、应用最广的一项技术。旷视为美图旗下的美图秀秀App、美颜相机、美颜手机等一系列软硬件产品提供了人脸识别技术支持
 - 百度自然语言处理部是百度最早成立的部门之一。其中，百度自然语言处理在深度问答方向经过多年打磨，积累了问句理解、答案抽取、观点分析与聚合等方面的一整套技术方案。篇章理解通过篇章结构分析、主体分析、内容标签、情感分析等关键技术实现对文本内容的理解，目前，篇章理解的关键技术已经在搜索、资讯流、糯米等产品中实现应用。在如此多的应用与数据支撑下，情感倾向分析API的识别与分析能力在未来将会不断提升
 
