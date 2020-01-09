@@ -5,7 +5,7 @@ Mood Hunter（心轨）|2019.12.25|曾拱韬
 
 # 情绪追踪APP
 - 智能产品名称：Mood Hunter（心轨）
-## (20x20PPT展示)[https://github.com/guyray/API_ML_AI_final/blob/master/20x20.pptx]
+## [20x20PPT展示](https://github.com/guyray/API_ML_AI_final/blob/master/20x20.pptx)
 # 一. 价值主张设计
 ## 1.1 加值宣言
 #### 加值宣言
